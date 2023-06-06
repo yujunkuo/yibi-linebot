@@ -2,7 +2,7 @@ services:
 - type: web
   name: yibi-linebot
   env: python
-  repo: https://github.com/yujunkuo/yibi-linebot.git
+  repo: https://github.com/s1072815/yibi-linebot
   buildCommand: pip install -r requirements.txt
   startCommand: gunicorn main:app
   plan: free
